@@ -1,0 +1,22 @@
+[
+  {
+    "compilerOptions": {
+      "target": "es5",
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "declaration": false,
+      "removeComments": false,
+      "preserveConstEnums": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "sourceMap": true
+    },
+    "filesGlob": [
+      "./**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "bower_components",
+      "server"
+    ]
+  }
+]
